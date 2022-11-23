@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: white;
+    font-family: Amazon Ember,Amazon Ember Arabic,Arial,sans-serif;
+    background-color: #0F171E; 
+  }
+  
+  header {
+    background-color: #0F171E;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid;
+    display: flex;
+  }
+  
+  .logoPV {
+    padding-left: 6%;
+    height: 85px;
+  }
+  .amazon{
+    padding-left: 5%;
+    height: 11px;
+  }
+  
+  .boys {
+    position: absolute;
+    padding-top: 20px;
+    width: 350px;
+    height: 97px;
+    top: 20.5%;
+    left: 5%;
+    font-size: 15px;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul {
+    font-size: 1.6em;
+    margin-top: 4%;
+    padding-left: 5px;
+  }
+  ul a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  ul a:hover{
+    border-bottom: 1px solid;
+  }
+  ul option{
+    color:wheat;
+  }
+  .a18{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 278px;
+    left: 370px;
+  }
+  .fundo1 {
+    height: 100vh;
+    width: 100%;
+  }
+  .fundo1 {
+    background-image: url("../src/2-temp/fundoTOP.webp");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+    -webkit-mask-image: linear-gradient(to right top, transparent 40%, black 89%);
+  
+  }
+  
+  .paragrafo{
+    width: 45%;
+    position: absolute;
+    font-size: 17px;
+    top: 315px;
+    margin-left: 5%;
+  }
+  #temp {
+    color: white;
+    position: absolute;
+    top: 255px;
+    left: 70px;
+    height: 3em;
+  }
+  #temp button{
+    background-color: #000619;
+    cursor: pointer;
+    color: white;
+    border: 1px solid rgba(255, 208, 0, 0.247);
+    border-radius: 10px;
+    padding: 5px;
+    height: 45px;
+  }
+  #temp button:hover{
+    background-color: #022596;
+  }
+  #atual{
+    background-color: #022596;
+  }
+  table{
+    color: white;
+    width: 690px;
+    position: absolute;
+    font-size: 14px;
+    margin-left: 5%;
+    top: 478px;
+  }
+  td{
+    color: rgb(168, 157, 157);
+  }
+  td a{
+    color: rgb(255, 255, 255);
+  }
+  td a:hover{
+    color: rgb(161, 161, 253);
+  }
+  tr td{
+    padding-left: 1%;
+  }
+  
+  /*Agora O Conteudo abaixo da  pagina */
+  .segundaBarra{
+    background-color: #28314E;
+    color: gray;
+    text-align: center;
+    padding:1%;
+    margin-bottom: 2%;
+    }
+    .segundaBarra span{
+      font-size: 35px;
+      margin-left: 4%;
+    }
+    .segundaBarra span:hover{
+      color: white;
+      border-bottom: 1px solid white;
+    }
+  .fundoSection{
+    height: 105vh;
+    background-image:url(../src/fundoTest.jpg);
+  }
+  .botao{
+  width: 40%;
+  display: flex;
+  }
+  .botao input{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #000619;
+    border-radius: 8px;
+    border: none;
+    margin-left: 2%;
+    padding: 2%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 130px;
+    height: 45px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  input:hover{
+    background-color: rgba(255, 255, 255, 0.603);
+    color: #000619;
+    transition: 0.8s;
+  }
+  .conteudo h1{
+    font-size: 45px;
+    padding-bottom: 4%;
+  }
+  .conteudo{
+  font-family: Amazon Ember,Amazon Ember Arabic,Arial,sans-serif;
+  font-size: 19px;
+  margin-left: 5%;
+  width: 45%;
+  }
+  .person{
+    width: 550px;
+    position: absolute;
+    left: 42%;
+    top: 145%;
+  }
+  .botoes{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    top: 210%;
+  }
+  .personagens{
+    margin-left: 2%;
+    width: 80px;
+    background-color: #1b2136;
+  }
+  .personagens:hover{
+    border: 1px solid;
+    border-radius: 4px;
+    background-color:#000619;
+  }
+  .btns{
+    position: absolute;
+    top: 260vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn{
+    width: 60px;
+    border: 1px solid;
+    border-radius: 4px;
+  }
+  /* Trailer*/
+  .trailer{
+    text-align: center;
+  }
+  
+  /*Footer*/
+  .city{
+    width: 100%;
+    height: 100vh;  
+    display: block;
+  }
+  .capa2{
+    width: 205.2vh;
+    height: 100vh;  
+    display: none;
+  }
+  footer img{
+    margin-left: 40%;
+  }
+  .final{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  
+  
+  /*    Esconder Elementos para Mostrar no JavaScript        */
+  /* Na Vought */
+  .vought{
+    display: block;
+  }
+  .sete{
+    display: none;
+  }
+  .herois{
+    display: none;
+  }
+  .theBoys{
+    display: none;
+  }
+  .fbsa{
+    display: none;
+  }
+  .edgar{
+    display:block;
+  }
+  
+  .ashley{
+    display: none;
+  }
+  .luzEstrela{
+    display:block;
+  }
+  .patria{
+    display: none;
+  }
+  .noire{
+    display: none;
+  }
+  .maeve{
+    display: none;
+  }
+  .tBala{
+    display: none;
+  }
+  .profundo{
+    display: block;
+  }
+  .soldierBoy{
+    display: none;
+  }
+  
+  .bruto{
+    display: block;
+  }
+  .leitinho{
+    display:none;
+  }
+  .frances{
+    display:none;
+  }
+  .kimiko{
+    display:none;
+  }
+  .hughie{
+    display:block;
+  }
+  .vic{
+    display: none;
+  }
+  
